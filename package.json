@@ -1,0 +1,23 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "HTTP Email service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "email",
+    "email-service",
+    "coderdojo"
+  ],
+  "author": "Wardormeur",
+  "license": "ISC",
+  "dependencies": {
+    "cp-translations": "^1.0.92",
+    "pnp-email-service": "https://github.com/clevertech/email-service"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
