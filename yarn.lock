@@ -143,8 +143,8 @@ assign-symbols@^1.0.0:
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
 
 ast-types@0.x.x:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.11.4.tgz#76f930930e9571851ba282a9a0f6923f29f6be2f"
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.11.5.tgz#9890825d660c03c28339f315e9fa0a360e31ec28"
 
 async-each@^1.0.0:
   version "1.0.1"
@@ -173,8 +173,8 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
 aws-sdk@^2.12.0, aws-sdk@^2.2.36:
-  version "2.247.1"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.247.1.tgz#be5f220d40665ac91d3a84a51f029fa05560c4ee"
+  version "2.248.1"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.248.1.tgz#a6b65d3a1ef9cdc774b0cf9c552af997d2342c03"
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -2247,9 +2247,9 @@ pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
 
-"pnp-email-service@https://github.com/clevertech/email-service":
+"pnp-email-service@https://github.com/Wardormeur/email-service.git":
   version "0.1.8"
-  resolved "https://github.com/clevertech/email-service#f159abe7f7aaac344b20686dbb23f3f330d1d7f1"
+  resolved "https://github.com/Wardormeur/email-service.git#876db98dfc23a022de9008dd73097a2be1cb0356"
   dependencies:
     aws-sdk "^2.12.0"
     better-npm-run "0.0.15"
