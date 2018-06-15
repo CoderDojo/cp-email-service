@@ -1,7 +1,7 @@
 const emailService = require('pnp-email-service')
 const config = {
   /* Check the configuration options below */
-  missingLanguageFallback: () => {
+  languageFallback: () => {
     return 'en_US';
   },
   templatePathFormatter: (template, target, format, type, lang) => {
