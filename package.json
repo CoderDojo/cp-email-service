@@ -4,7 +4,8 @@
   "description": "HTTP Email service",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node index.js"
   },
   "keywords": [
     "email",
