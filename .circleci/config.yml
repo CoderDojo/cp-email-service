@@ -1,26 +1,6 @@
 ---
 version: 2
 jobs:
-  build:
-    machine: true
-    working_directory: ~/cp-email-service
-    steps:
-      - checkout
-      - run:
-          name: Install Docker Compose
-          command: |
-            curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` > ~/docker-compose
-            chmod +x ~/docker-compose
-            mv ~/docker-compose /usr/local/bin/docker-compose
-      - restore_cache:
-          key: node-modules-cache-{{ checksum "yarn.lock" }}
-      - run:
-          name: Install Dependencies
-          command: docker-compose run --rm --no-deps test yarn
-      - save_cache:
-          key: node-modules-cache-{{ checksum "yarn.lock" }}
-          paths:
-            - node_modules
   deploy:
     working_directory: ~/cp-email-service
     docker:
@@ -43,10 +23,7 @@ workflows:
   version: 2
   build-test-and-deploy:
     jobs:
-      - build
       - deploy:
-          requires:
-            - build
           filters:
             branches:
               only:
