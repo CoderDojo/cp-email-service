@@ -4,7 +4,7 @@ const config = {
   missingLanguageFallback: () => {
     return 'en_US';
   },
-  formatFunction: (template, target, format, type, lang) => {
+  templatePathFormatter: (template, target, format, type, lang) => {
     return format ? `${template}-${lang}/${format}.${type}` : `${template}-${lang}/${target}.${type}`; 
   },
 }
