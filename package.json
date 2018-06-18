@@ -15,7 +15,7 @@
   "author": "Wardormeur",
   "license": "ISC",
   "dependencies": {
-    "cp-translations": "^1.0.92",
+    "cp-translations": "^1.0.95",
     "pnp-email-service": "https://github.com/Wardormeur/email-service.git"
   },
   "devDependencies": {
