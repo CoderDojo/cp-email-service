@@ -594,9 +594,10 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cp-translations@1.0.125:
-  version "1.0.125"
-  resolved "https://registry.yarnpkg.com/cp-translations/-/cp-translations-1.0.125.tgz#fdda119d524670fc1b35907144ff12cf62a43963"
+cp-translations@1.0.129:
+  version "1.0.129"
+  resolved "https://registry.yarnpkg.com/cp-translations/-/cp-translations-1.0.129.tgz#0ab1b95916c397616d94630c8a0e96aaaed8a2e6"
+  integrity sha512-LAaj4gncKA+gXf9W/9TvWd4WQeSBYjZk+u6UceMSDxsoUWF2jJ9LKwFUrBdjOqzvti4QdEzDRUSIs/t/HWgSeg==
 
 create-error-class@^3.0.0:
   version "3.0.2"
