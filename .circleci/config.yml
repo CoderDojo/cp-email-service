@@ -24,6 +24,9 @@ workflows:
   build-test-and-deploy:
     jobs:
       - deploy:
+          context:
+            - docker-hub
+            - bastion-cluster-access
           filters:
             branches:
               only:
